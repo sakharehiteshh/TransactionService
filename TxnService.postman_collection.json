@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "f7b316c5-54dc-4201-8771-b0376fa9edbd",
+		"name": "TxnService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31566049"
+	},
+	"item": [
+		{
+			"name": "Load",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"messageId\": \"55210c62-e480-asdf-bc1b-e991ac67FSAC\",\n  \"userId\": \"2226e2f9-ih09-46a8-958f-d659880asdfD\",\n  \"transactionAmount\": {\n    \"amount\": \"50.00\",\n    \"currency\": \"USD\",\n    \"debitOrCredit\": \"CREDIT\"\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/load/55210c62-e480-asdf-bc1b-e991ac67FSAC",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"load",
+						"55210c62-e480-asdf-bc1b-e991ac67FSAC"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Authorization",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"messageId\": \"55210c62-e480-asdf-bc1b-e991ac67FSAC\",\n  \"userId\": \"2226e2f9-ih09-46a8-958f-d659880asdfD\",\n  \"transactionAmount\": {\n    \"amount\": \"1.38\",\n    \"currency\": \"USD\",\n    \"debitOrCredit\": \"DEBIT\"\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/authorization/55210c62-e480-asdf-bc1b-e991ac67FSAC",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"authorization",
+						"55210c62-e480-asdf-bc1b-e991ac67FSAC"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bad Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"messageId\": \"55210c62-e480-asdf-bc1b-e991ac67FSAC\",\n  \"userId\": \"2226e2f9-ih09-46a8-958f-d659880asdfD\",\n  \"transactionAmount\": {\n    \"amount\": \"50.23\",\n    \"currency\": \"GBP\",\n    \"debitOrCredit\": \"DEBIT\"\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/authorization/55210c62-e480-asdf-bc1b-e991ac67FSAC",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"authorization",
+						"55210c62-e480-asdf-bc1b-e991ac67FSAC"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Invalid Amount",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"messageId\": \"55210c62-e480-asdf-bc1b-e991ac67FSAC\",\n  \"userId\": \"2226e2f9-ih09-46a8-958f-d659880asdfD\",\n  \"transactionAmount\": {\n    \"amount\": \"50.2300\",\n    \"currency\": \"USD\",\n    \"debitOrCredit\": \"DEBIT\"\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/authorization/55210c62-e480-asdf-bc1b-e991ac67FSAC",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"authorization",
+						"55210c62-e480-asdf-bc1b-e991ac67FSAC"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User not found",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"messageId\": \"55210c62-e480-asdf-bc1b-e991ac67FSAC\",\n  \"userId\": \"12226e2f9-ih09-46a8-958f-d659880asdfD\",\n  \"transactionAmount\": {\n    \"amount\": \"50.23\",\n    \"currency\": \"USD\",\n    \"debitOrCredit\": \"DEBIT\"\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/authorization/55210c62-e480-asdf-bc1b-e991ac67FSAC",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"authorization",
+						"55210c62-e480-asdf-bc1b-e991ac67FSAC"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ping",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

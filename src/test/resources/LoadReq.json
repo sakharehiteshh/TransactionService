@@ -1,0 +1,9 @@
+{
+  "messageId": "55210c62-e480-asdf-bc1b-e991ac67FSAC",
+  "userId": "jUnit-Test-User",
+  "transactionAmount": {
+    "amount": "1000.00",
+    "currency": "USD",
+    "debitOrCredit": "CREDIT"
+  }
+}

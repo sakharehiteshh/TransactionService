@@ -1,6 +1,5 @@
-package dev.codescreen.controller;
+package com.example.controller;
 
-import java.time.Instant;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
@@ -16,14 +15,14 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import dev.codescreen.entity.ErrorResponse;
-import dev.codescreen.entity.Persistence;
-import dev.codescreen.entity.Ping;
-import dev.codescreen.entity.Request;
-import dev.codescreen.entity.Response;
-import dev.codescreen.exception.TransactionServiceException;
-import dev.codescreen.repository.EventPersistRepo;
-import dev.codescreen.service.AuthorizationLoadService;
+import com.example.entity.ErrorResponse;
+import com.example.entity.Persistence;
+import com.example.entity.Ping;
+import com.example.entity.Request;
+import com.example.entity.Response;
+import com.example.exception.TransactionServiceException;
+import com.example.repository.EventPersistRepo;
+import com.example.service.AuthorizationLoadService;
 import jakarta.servlet.http.HttpServletRequest;
 
 @RestController

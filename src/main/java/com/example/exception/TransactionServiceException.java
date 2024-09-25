@@ -1,4 +1,4 @@
-package dev.codescreen.exception;
+package com.example.exception;
 
 import org.springframework.http.HttpStatus;
 

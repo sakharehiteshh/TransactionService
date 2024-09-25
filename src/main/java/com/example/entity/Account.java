@@ -1,4 +1,4 @@
-package dev.codescreen.entity;
+package com.example.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

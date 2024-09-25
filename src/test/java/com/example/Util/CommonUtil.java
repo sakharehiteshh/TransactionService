@@ -1,4 +1,4 @@
-package dev.codescreen.Util;
+package com.example.Util;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.nio.file.Files;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import dev.codescreen.entity.Request;
+import com.example.entity.Request;
 
 public class CommonUtil {
 	

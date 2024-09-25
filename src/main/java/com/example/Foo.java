@@ -1,4 +1,4 @@
-package dev.codescreen;
+package com.example;
 
 /**
  * Dummy class with a dummy method.

@@ -11,8 +11,8 @@
 		<relativePath/> 
 	</parent>
 
-    <groupId>dev.codescreen</groupId>
-    <artifactId>CodeScreen_0tixkfok</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>TransactionService</artifactId>
     <version>1.0.0</version>
 
     <properties>

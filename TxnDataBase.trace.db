@@ -1867,7 +1867,7 @@ org.h2.message.DbException: Wrong user name or password [28000-224]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at dev.codescreen.TransactionServiceApplication.main(TransactionServiceApplication.java:16)
+	at com.example.TransactionServiceApplication.main(TransactionServiceApplication.java:16)
 Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-224]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
@@ -1928,7 +1928,7 @@ org.h2.message.DbException: Wrong user name or password [28000-224]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at dev.codescreen.TransactionServiceApplication.main(TransactionServiceApplication.java:16)
+	at com.example.TransactionServiceApplication.main(TransactionServiceApplication.java:16)
 Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-224]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
@@ -1993,7 +1993,7 @@ org.h2.message.DbException: Wrong user name or password [28000-224]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at dev.codescreen.TransactionServiceApplication.main(TransactionServiceApplication.java:16)
+	at com.example.TransactionServiceApplication.main(TransactionServiceApplication.java:16)
 Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-224]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
@@ -2091,7 +2091,7 @@ org.h2.message.DbException: Wrong user name or password [28000-224]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at dev.codescreen.TransactionServiceApplication.main(TransactionServiceApplication.java:16)
+	at com.example.TransactionServiceApplication.main(TransactionServiceApplication.java:16)
 Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-224]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
@@ -2152,7 +2152,7 @@ org.h2.message.DbException: Wrong user name or password [28000-224]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at dev.codescreen.TransactionServiceApplication.main(TransactionServiceApplication.java:16)
+	at com.example.TransactionServiceApplication.main(TransactionServiceApplication.java:16)
 Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-224]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
@@ -2217,7 +2217,7 @@ org.h2.message.DbException: Wrong user name or password [28000-224]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at dev.codescreen.TransactionServiceApplication.main(TransactionServiceApplication.java:16)
+	at com.example.TransactionServiceApplication.main(TransactionServiceApplication.java:16)
 Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-224]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)

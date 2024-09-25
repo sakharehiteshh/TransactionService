@@ -1,12 +1,12 @@
-package dev.codescreen;
+package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-import dev.codescreen.controller.TransactionController;
-import dev.codescreen.repository.EventPersistRepo;
-import dev.codescreen.service.AuthorizationLoadService;
+import com.example.controller.TransactionController;
+import com.example.repository.EventPersistRepo;
+import com.example.service.AuthorizationLoadService;
 
 @SpringBootApplication
 @ComponentScan(basePackageClasses = {TransactionController.class,AuthorizationLoadService.class,EventPersistRepo.class} )

@@ -1,4 +1,4 @@
-package dev.codescreen.controller;
+package com.example.controller;
 
 import static org.assertj.core.api.Assertions.assertThatNoException;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -7,11 +7,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.io.IOException;
 
-import dev.codescreen.repository.EventPersistRepo;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
+import com.example.repository.EventPersistRepo;
 import org.apache.catalina.connector.RequestFacade;
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
@@ -23,11 +20,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
 
-import dev.codescreen.Util.*;
-import dev.codescreen.entity.Persistence;
-import dev.codescreen.entity.Request;
-import dev.codescreen.exception.TransactionServiceException;
-import dev.codescreen.service.AuthorizationLoadService;
+import com.example.Util.*;
+import com.example.entity.Persistence;
+import com.example.entity.Request;
+import com.example.exception.TransactionServiceException;
+import com.example.service.AuthorizationLoadService;
 import jakarta.servlet.http.HttpServletRequest;
 
 @SpringBootTest

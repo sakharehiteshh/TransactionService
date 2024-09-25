@@ -1,4 +1,4 @@
-package dev.codescreen.service;
+package com.example.service;
 
 import static org.assertj.core.api.Assertions.assertThatNoException;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -9,14 +9,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.http.HttpStatus;
 
-import dev.codescreen.entity.Account;
-import dev.codescreen.entity.Persistence;
-import dev.codescreen.entity.Request;
-import dev.codescreen.entity.Response;
-import dev.codescreen.exception.TransactionServiceException;
-import dev.codescreen.repository.AccountRepo;
-import dev.codescreen.repository.EventPersistRepo;
-import dev.codescreen.Util.CommonUtil;
+import com.example.entity.Persistence;
+import com.example.entity.Request;
+import com.example.entity.Response;
+import com.example.exception.TransactionServiceException;
+import com.example.repository.AccountRepo;
+import com.example.Util.CommonUtil;
 
 @DataJpaTest
 public class AuthorizationLoadServiceTest {

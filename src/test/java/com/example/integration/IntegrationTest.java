@@ -1,12 +1,12 @@
-package dev.codescreen.integration;
+package com.example.integration;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import dev.codescreen.TransactionServiceApplication;
-import dev.codescreen.entity.Persistence;
-import dev.codescreen.entity.Request;
-import dev.codescreen.entity.Response;
-import dev.codescreen.entity.TransactionAmount;
-import dev.codescreen.service.AuthorizationLoadService;
+import com.example.TransactionServiceApplication;
+import com.example.entity.Persistence;
+import com.example.entity.Request;
+import com.example.entity.Response;
+import com.example.entity.TransactionAmount;
+import com.example.service.AuthorizationLoadService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.springframework.beans.factory.annotation.Autowired;

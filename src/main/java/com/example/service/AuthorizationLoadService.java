@@ -1,4 +1,4 @@
-package dev.codescreen.service;
+package com.example.service;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -10,13 +10,13 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import dev.codescreen.entity.Account;
-import dev.codescreen.entity.Persistence;
-import dev.codescreen.entity.Request;
-import dev.codescreen.entity.Response;
-import dev.codescreen.entity.TransactionAmount;
-import dev.codescreen.exception.TransactionServiceException;
-import dev.codescreen.repository.AccountRepo;
+import com.example.entity.Account;
+import com.example.entity.Persistence;
+import com.example.entity.Request;
+import com.example.entity.Response;
+import com.example.entity.TransactionAmount;
+import com.example.exception.TransactionServiceException;
+import com.example.repository.AccountRepo;
 
 @Service
 public class AuthorizationLoadService {
